@@ -1,0 +1,13 @@
+[Unit]
+Description=Test2 Servive
+PartOf=job1.target
+Requires=sv1.service
+After=sv1.service
+
+
+[Service]
+ExecStart=/tmp/app1.sh 2
+
+[Install]
+WantedBy=job1.target
+

@@ -1,0 +1,7 @@
+[Unit]
+Description=MyTest target
+Requires=multi-user.target
+
+[Install]
+WantedBy=multi-user.target
+

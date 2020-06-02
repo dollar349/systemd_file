@@ -1,0 +1,11 @@
+[Unit]
+Description=Daemon3 test
+StopWhenUnneeded=yes
+
+[Service]
+ExecStart=/tmp/daemon3.sh
+
+[Install]
+WantedBy=test.target
+
+

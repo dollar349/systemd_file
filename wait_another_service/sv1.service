@@ -1,0 +1,12 @@
+[Unit]
+Description=Test1 Servive
+PartOf=job1.target
+
+[Service]
+Type=oneshot
+ExecStart=/tmp/app1.sh 1
+RemainAfterExit=yes
+
+[Install]
+WantedBy=job1.target
+

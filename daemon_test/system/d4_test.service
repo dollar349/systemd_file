@@ -1,0 +1,9 @@
+[Unit]
+Description=Daemon4 test
+Conflicts=d2_test.service
+
+[Service]
+ExecStart=/tmp/daemon4.sh
+
+[Install]
+WantedBy=test.target

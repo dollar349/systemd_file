@@ -1,0 +1,10 @@
+[Unit]
+Description=Daemon1 test
+
+[Service]
+ExecStart=/tmp/daemon1.sh
+
+[Install]
+WantedBy=test.target
+
+
